@@ -15,39 +15,6 @@ Aliases:
 ---
 # C Strutuctures
 
-**Tabela de Conteúdo**
-
-[[#Essencial]]
-
-[[#Criar uma struct]]
-
-[[#Declarar um struct]]
-
-[[#Remover keyword struct]]
-
-[[#Usar alias para uma struct]]
-
-[[#Acessar usar membros da struct]]
-
-[[#Inicializar variáveis-membro]]
-
-[[#Array de struct]]
-
-[[#]]
-
-[[#]]
-
-[[#]]
-
-[[#]]
-
-[[#]]
-
-[[#]]
-
-[[#]]
-
-
 ## Essencial
 
 ### Criar uma `struct`
