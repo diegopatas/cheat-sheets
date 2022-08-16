@@ -15,6 +15,14 @@ Aliases:
 ---
 # C Strutuctures
 
+## Tabela de conteúdo
+
+1. [Essencial](#Essencial)
+2. [Ponteiros](#Ponteiros)
+3. [Funções](#Funções)
+4. [Union](#Union)
+5. [Conclusão](#Conclusão)
+
 ---
 ## Essencial
 
@@ -355,6 +363,6 @@ union u_group_data {
 - Estruturas `union` dificultam a leitura do código consideravelmente
 - Elas trabalham de forma análoga as estruturas `struct`.
 
-## Considerações finais
+## Conclusão
 
 - Há uma série de detalhes omitidos nesse seção, então consulte a documentação para mais detalhes.
