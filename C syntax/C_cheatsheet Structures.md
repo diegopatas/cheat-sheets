@@ -15,9 +15,42 @@ Aliases:
 ---
 # C Strutuctures
 
+**Tabela de Conteúdo**
+
+[[#Essencial]]
+
+[[#Criar uma struct]]
+
+[[#Declarar um struct]]
+
+[[#Remover keyword struct]]
+
+[[#Usar alias para uma struct]]
+
+[[#Acessar usar membros da struct]]
+
+[[#Inicializar variáveis-membro]]
+
+[[#Array de struct]]
+
+[[#]]
+
+[[#]]
+
+[[#]]
+
+[[#]]
+
+[[#]]
+
+[[#]]
+
+[[#]]
+
+
 ## Essencial
 
-### Definir
+### Criar uma `struct`
 
 - Você pode criar coleção de variáveis de tipos distintos, chamada estrutura, e tratar essa coleção como uma unidade. Use a palavra-chave `struct` como abaixo:
 
@@ -28,13 +61,13 @@ struct s_horse {
 };
 ```
 
-**Fatos**
-- É um novo tipo, não uma nova variável.
+**Tenha em mente que:**
+- Uma `struct` é um novo tipo, não uma nova variável.
 - O nome do tipo criado é `tag name`/ `struct tag`.
 - As variáveis membros são `membros` ou `atributos`.
 
 
-### Declarar
+### Declarar um `struct`
 
 - Após criar/ definir um tipo com a `struct` você pode declarar uma variável correspondente:
 
@@ -55,9 +88,9 @@ typedef struct s_horse {
 s_horse paris;
 ```
 
-### Usar alias
+### Usar alias para uma `struct`
 
-- Você pode criar um para a sua `struct` de duas formas.
+- Você pode criar um alias para a sua `struct` de duas formas.
 
 - Assim:
 
@@ -67,7 +100,7 @@ typedef struct s_horse t_horse;
 struct s_horse {
 	int age;
 	char *name;
-}
+};
 ```
 
 - ou assim:
