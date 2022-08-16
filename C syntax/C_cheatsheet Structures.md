@@ -15,6 +15,7 @@ Aliases:
 ---
 # C Strutuctures
 
+---
 ## Essencial
 
 ### Criar uma `struct`
@@ -89,12 +90,12 @@ t_horse milan;
 milan.age = 42;
 ```
 
-**Fatos:**
+**Obs:**
 
 - Por si, uma variável `struct` não é um ponteiro.
 - O ponto é chamado `selection operator`.
 
-### Inicializar variáveis-membro
+### Inicializar variáveis-membro da `struct`
 
 - Você pode inicializar membro a membro, assim:
 
@@ -137,7 +138,7 @@ my_horses[1].age = 24;
 average = (my_horses[0].age = 42 + my_horses[1].age = 24) / 2;
 ```
 
-
+---
 ## Ponteiros
 
 ### Ponteiros para `struct`
@@ -252,6 +253,7 @@ typedef struct s_list {
 - O segundo membro é um ponteiro do tipo `t_list *`, ou seja, ele pode abrigar o endereço de uma variável do mesmo tipo, no caso, uma lista.
 - Assim, quando criamos uma lista, um elemento dessa lista possui um nome e o endereço do próximo membro da lista.
 
+---
 ## Funções
 
 ### Uma `struct` como argumento de função
@@ -336,6 +338,7 @@ t_horse *ft_create_horse(void)
 }
 ```
 
+---
 ## Union
 
 ### Compartilhando memória
