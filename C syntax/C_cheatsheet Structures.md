@@ -53,7 +53,7 @@ struct s_horse dubling;
 
 ### Remover keyword `struct`
 
-- Para remover a necessidade de incluir a palavra `struct` em toda declaração de variável, inclua `typedef` na definição da estrutura:
+- É possível omitir a keyword `struct` em toda declaração de uma variável do tipo da estrutura. Para isso, inclua `typedef` na definição da estrutura em si. Veja a seguir:
 
 ```c
 typedef struct s_horse {
@@ -79,7 +79,7 @@ struct s_horse {
 };
 ```
 
-- ou assim:
+- Ou assim:
 
 ```c
 typedef struct s_horse {
